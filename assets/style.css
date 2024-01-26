@@ -1,0 +1,143 @@
+/* Body and Headings */
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color:#393d41;
+    box-sizing: border-box;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color:#25a2c3;
+}
+
+
+
+/* Header */
+#header_img{
+    padding: 40px;
+    background-color: black;
+}
+#header_img img{
+    width: 200px;
+}
+
+/* Banner */
+#banner{
+    background-image: url('../assets/img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 60px 60px 70px;   
+}
+#banner h1{
+    font-size: 2em;
+    line-height: 1;
+}
+#banner p{
+    padding-bottom: 40px;
+}
+#partiamo{
+    
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+/* Article */
+#article h4, #article p{
+    
+    margin: 20px 80px 0 80px;
+}
+#article h4:first-of-type{
+    margin-top: 40px;
+}
+#article p:last-of-type{
+    margin-bottom: 40px;
+}
+
+
+#notebook{
+    width: 350px;
+    border-radius: 50%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+/* Blockquote */
+
+#blockquote{
+    margin: 0;
+    background-color:  #e22d0e;
+    color: white;
+    padding: 40px;
+}
+#blockquote h2{
+    color: white;
+    font-size: 1.9em;
+    margin-top:0;
+}
+#cite{
+    font-size: 1em;
+    font-weight: lighter;
+}
+#ceo{
+    margin: 0;
+}
+
+
+/* blocchi foto */
+.blocco_foto img{
+    width: 100%;
+    margin: 0 auto;
+}
+.blocco_foto{
+    border: 1px solid #dee1e3;
+    display: inline-block;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+#footer{
+    background-color: #25a2c3;
+}
+#footer{
+    color:white;
+}
+#footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer ul li:first-child::before{
+    content: "\f095"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+   
+ 
+}
+#footer ul li:nth-child(2)::before{
+    content: "\f0e0"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+
+}
+#footer ul li:nth-child(3)::before{
+    content: "\f08e"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+   
+}
+#copyright{
+    border-top: 1px white solid;
+    display: inline-block;
+}
